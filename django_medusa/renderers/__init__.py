@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.utils import importlib
+from importlib import import_module
 from .base import BaseStaticSiteRenderer
 from .disk import DiskStaticSiteRenderer
 from .appengine import GAEStaticSiteRenderer
